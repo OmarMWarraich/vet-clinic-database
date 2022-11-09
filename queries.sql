@@ -58,13 +58,14 @@ SAVEPOINT savepoint_name;
 /* 
     Update all animals' weight to be their weight multiplied by -1. 
     Verify that change was made. Then roll back to the save point.
-    After the rollback, verify that all records have positive weight values again.
+    After the rollback, UPDATE all animals' weights that are negative to be their weight multiplied by -1.
     Commit transaction.
 */
 
 UPDATE animals SET weight_kg = weight_kg * -1;
 SELECT * FROM animals;
 ROLLBACK TO savepoint_name;
+UPDATE animals SET weight_kg = weight_kg * -1 WHERE weight_kg < 0;
 SELECT * FROM animals;
 COMMIT;
 
