@@ -7,5 +7,8 @@ CREATE TABLE animals (
     escape_attempts int,
     neutered boolean,
     weight_kg decimal,
-    species varchar(100)
 );
+
+/* Add a new column species of type string to the animals table. */
+
+ALTER TABLE animals ADD species varchar(100);
