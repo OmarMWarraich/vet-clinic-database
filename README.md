@@ -1,8 +1,12 @@
-# curriculum-databases-projects-template
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
+# Vet clinic database
 
+> This is a database for a vet clinic. It contains information about animals, owners, and vets.
+
+## Tools used:
+
+- PostgreSQL
 
 ## Getting Started
 
@@ -12,20 +16,17 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - Use [data.sql](./data.sql) to populate tables with sample data.
 - Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
 
+## Pre-requisites
 
-## Authors
+- node.js
+- npm
+- PostgreSQL
 
-👤 **Author1**
+## Author 👤 Omar Warraich
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@OmarMWarraich](https://github.com/OmarMWarraich)
+- Twitter: [@omarwarraich1](https://twitter.com/@omarwarraich1)
+- LinkedIn: [Omar Mohammad](https://www.linkedin.com/in/omar-mohammad-a9902847/)
 
 ## 🤝 Contributing
 
@@ -39,10 +40,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Thank You [Microverse](www.microverse.org) team.
+- Thanks to everyone who will get time to check this code and suggest any [issues](https://github.com/OmarMWarraich/vet-clinic-database/issues)
 
-## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+
+
+
+
