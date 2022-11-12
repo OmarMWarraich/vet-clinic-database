@@ -94,7 +94,7 @@ SELECT animals.name FROM animals JOIN owners ON animals.owner_id = owners.id WHE
 
 /* List of all animals that are pokemon (their type is pokemon). */
 
-SELECT animals.name FROM animals JOIN species ON animals.species_id = species.id WHERE species.name = 'pokemon';
+SELECT animals.name FROM animals JOIN species ON animals.species_id = species.id WHERE species.name = 'Pokemon';
 
 /* List of all owners and their animals, remember to include those that don't own any animal. */
 

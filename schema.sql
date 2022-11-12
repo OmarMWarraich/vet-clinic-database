@@ -6,7 +6,7 @@ CREATE TABLE animals (
     date_of_birth date,
     escape_attempts int,
     neutered boolean,
-    weight_kg decimal,
+    weight_kg decimal
 );
 
 /* Add a new column species of type string to the animals table. */
@@ -16,16 +16,16 @@ ALTER TABLE animals ADD species varchar(100);
 /* Create a table named owners with the following columns: */
 
 CREATE TABLE owners (
-    id SERIAL NOT NULL PRIMARY KEY,
+    id INTEGER NOT NULL PRIMARY KEY,
     full_name varchar(100),
-    age int,
+    age int
 );
 
 /* Create a table namex species with the following columns: */
 
 CREATE TABLE species (
-    id SERIAL NOT NULL PRIMARY KEY,
-    name varchar(100),
+    id INTEGER NOT NULL PRIMARY KEY,
+    name varchar(100)
 );
 
 /* Modify animals table by dropping column species. */
