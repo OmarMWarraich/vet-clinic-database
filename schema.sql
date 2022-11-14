@@ -75,3 +75,13 @@ CREATE TABLE visits (
     CONSTRAINT fk_vet_id FOREIGN KEY (vet_id) REFERENCES vets (id),
     CONSTRAINT fk_animal_id FOREIGN KEY (animal_id) REFERENCES animals (id)
 );
+
+
+-- To improve this command: SELECT COUNT(*) FROM visits where animal_id = 4; 
+CREATE INDEX visits_animal_id ON visits(animal_id); 
+
+-- To improve this command: SELECT * FROM visits where vet_id = 2; 
+CREATE INDEX visits_vet_id ON visits(vet_id); 
+
+-- To improve this command: SELECT * FROM owners where email = 'owner_18327@mail.com'; 
+CREATE INDEX owners_email ON owners(email); 
