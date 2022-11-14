@@ -75,3 +75,5 @@ CREATE TABLE visits (
     CONSTRAINT fk_vet_id FOREIGN KEY (vet_id) REFERENCES vets (id),
     CONSTRAINT fk_animal_id FOREIGN KEY (animal_id) REFERENCES animals (id)
 );
+
+
