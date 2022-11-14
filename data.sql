@@ -121,3 +121,6 @@ insert into owners (id, full_name, email) select (nextval('id_s')), 'Owner ' || 
 
 
 
+
+
+
