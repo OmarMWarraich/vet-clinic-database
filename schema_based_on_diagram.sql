@@ -39,3 +39,9 @@ CREATE TABLE invoice_items (
   treatment_id INT NOT NULL,
   FOREIGN KEY (treatment_id) REFERENCES treatments (id)
 );
+
+-- To create the many to many relationship between medical_histories and treatments
+CREATE TABLE histories_treatments (
+  history_id INT REFERENCES medical_histories(id) ON DELETE CASCADE,
+  treatment_id INT REFERENCES treatments(id) ON DELETE CASCADE
+);
