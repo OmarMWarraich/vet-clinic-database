@@ -4,6 +4,11 @@
 
 > This is a database for a vet clinic. It contains information about animals, owners, and vets.
 
+## Schema Diagram
+
+![drawSQL-export-2022-11-15_21 08](https://user-images.githubusercontent.com/57269872/201969337-f2406a10-bed7-4de2-9826-62771bef86b7.png)
+
+
 ## Tools used:
 
 - PostgreSQL
